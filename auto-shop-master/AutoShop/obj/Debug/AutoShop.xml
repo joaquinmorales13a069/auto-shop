@@ -1,0 +1,316 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AutoShop
+</name>
+</assembly>
+<members>
+<member name="T:AutoShop.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:AutoShop.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:AutoShop.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:AutoShop.My.Resources.Resources.background_catalogos">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:AutoShop.My.Resources.Resources.clientes">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:AutoShop.My.Resources.Resources.locales">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:AutoShop.My.Resources.Resources.productos">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:AutoShop.My.Resources.Resources.proveedores">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:AutoShop.My.Resources.Resources.usuario">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet.clientesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet.clientesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet.clientesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSetTableAdapters.clientesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(AutoShop.autoshopDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(AutoShop.autoshopDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(AutoShop.autoshopDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSetTableAdapters.TableAdapterManager.UpdateAll(AutoShop.autoshopDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_productos">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_productos.productosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_productos.productosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_productos.productosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_productosTableAdapters.productosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_productosTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_productosTableAdapters.TableAdapterManager.UpdateUpdatedRows(AutoShop.autoshopDataSet_productos,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_productosTableAdapters.TableAdapterManager.UpdateInsertedRows(AutoShop.autoshopDataSet_productos,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_productosTableAdapters.TableAdapterManager.UpdateDeletedRows(AutoShop.autoshopDataSet_productos,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_productosTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_productosTableAdapters.TableAdapterManager.UpdateAll(AutoShop.autoshopDataSet_productos)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_productosTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_productosTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_proveedores">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_proveedores.proveedoresDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_proveedores.proveedoresRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_proveedores.proveedoresRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_proveedoresTableAdapters.proveedoresTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_proveedoresTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_proveedoresTableAdapters.TableAdapterManager.UpdateUpdatedRows(AutoShop.autoshopDataSet_proveedores,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_proveedoresTableAdapters.TableAdapterManager.UpdateInsertedRows(AutoShop.autoshopDataSet_proveedores,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_proveedoresTableAdapters.TableAdapterManager.UpdateDeletedRows(AutoShop.autoshopDataSet_proveedores,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_proveedoresTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_proveedoresTableAdapters.TableAdapterManager.UpdateAll(AutoShop.autoshopDataSet_proveedores)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_proveedoresTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_proveedoresTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_sucursales">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_sucursales.sucursalesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_sucursales.sucursalesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_sucursales.sucursalesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_sucursalesTableAdapters.sucursalesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_sucursalesTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_sucursalesTableAdapters.TableAdapterManager.UpdateUpdatedRows(AutoShop.autoshopDataSet_sucursales,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_sucursalesTableAdapters.TableAdapterManager.UpdateInsertedRows(AutoShop.autoshopDataSet_sucursales,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_sucursalesTableAdapters.TableAdapterManager.UpdateDeletedRows(AutoShop.autoshopDataSet_sucursales,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_sucursalesTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:AutoShop.autoshopDataSet_sucursalesTableAdapters.TableAdapterManager.UpdateAll(AutoShop.autoshopDataSet_sucursales)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_sucursalesTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:AutoShop.autoshopDataSet_sucursalesTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
